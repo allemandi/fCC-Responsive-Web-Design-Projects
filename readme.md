@@ -11,5 +11,11 @@ A survey form, demonstrating various input methods. This is built as a CodePen.i
 
 The [survey form can be found here.](https://codepen.io/allemandi/full/qBqbzev "fCC: Build a Survey Form - Test Your Options")
 
+## Build a Product Landing Page - CA$H 4 CA$H
+A product landing page, built as a CodePen.io app, demonstrating how navigation bars, embedded video elements, and media queries apply in responsive web design and the default view as is.
+
+The [product landing page can be found here.](https://codepen.io/allemandi/full/BaQKQEM "fCC: Build a Product Landing Page - CA$H 4 CA$H")
+
+
 # License
 MIT, by default public Pen licensing on CodePen.io
