@@ -10,3 +10,6 @@ The [tribute page can be found here.](https://codepen.io/allemandi/full/xxRZBZp 
 A survey form, demonstrating various input methods. This is built as a CodePen.io app, primarily testing the correct usage of form elements that can be identified via unique name/id/value attributes.
 
 The [survey form can be found here.](https://codepen.io/allemandi/full/qBqbzev "fCC: Build a Survey Form - Test Your Options")
+
+# License
+MIT, by default public Pen licensing on CodePen.io
