@@ -21,5 +21,10 @@ A technical documentation page. This is equipped with responsive web elements.  
 
 The [technical documentation page can be found here.](https://codepen.io/allemandi/full/MWbyvwr "fCC: Build a Technical Documentation Page - HTML5 Documentation")
 
+## Build a Personal Portfolio Webpage - allemandi
+A personal portfolio page, reviewing responsive web design principles. This is built as a CodePen.io app, with mobile-friendly navigation options, hyperlinked card displays, and accessible contact details.
+
+The [personal portfolio page can be found here.](https://codepen.io/allemandi/full/zYoqajr "fCC: Build a Personal Portfolio Webpage - allemandi")
+
 # License
 MIT, by default public Pen licensing on CodePen.io
