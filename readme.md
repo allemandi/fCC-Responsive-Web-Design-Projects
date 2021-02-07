@@ -16,6 +16,10 @@ A product landing page, built as a CodePen.io app, demonstrating how navigation 
 
 The [product landing page can be found here.](https://codepen.io/allemandi/full/BaQKQEM "fCC: Build a Product Landing Page - CA$H 4 CA$H")
 
+## Build a Technical Documentation Page - HTML5 Documentation
+A technical documentation page. This is equipped with responsive web elements.  This is built as a CodePen.io app, with specifications testing HTML5 layout and sectioning elements. Navigation section elements and main content are mobile friendly.
+
+The [technical documentation page can be found here.](https://codepen.io/allemandi/full/MWbyvwr "fCC: Build a Technical Documentation Page - HTML5 Documentation")
 
 # License
 MIT, by default public Pen licensing on CodePen.io

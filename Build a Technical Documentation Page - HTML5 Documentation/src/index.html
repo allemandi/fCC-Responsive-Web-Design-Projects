@@ -1,0 +1,190 @@
+<html lang="en">
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  </head>
+  
+  
+  
+  <nav id="navbar">
+    <header id="navheader">
+      HTML5 Documentation
+    </header>
+    <a href="#introduction" class="nav-link">Introduction</a>
+    <a href="#nav_tag" class="nav-link">nav tag</a>
+    <a href="#section_tag" class="nav-link">section tag</a>
+    <a href="#article_tag" class="nav-link">article tag</a>
+    <a href="#header_tag" class="nav-link">header tag</a>
+    <a href="#footer_tag" class="nav-link">footer tag</a>    
+    <a href="#references" class="nav-link">References</a>    
+  </nav>
+  
+  
+  
+  <main id="main-doc">
+    
+    <section class="main-section" id="introduction">
+      <header>Introduction</header>
+      <article>
+        <p>
+          HTML5 is the fifth and last major HTML version released in 22/01/2008 by the World Wide Web Consortium (W3C).</p>
+        <p>
+          HTML5 is developed as a Living Standard, a concept that emphasizes on an incomplete but continually improving and updating project.
+        </p>
+        <p>
+          Improvments to HTML5 in particular include:
+        </p>
+        <ul>
+          <li>
+            Scalable Vector Graphics (SVC)
+          </li>
+          <li>
+            Usage of Web SQL databases for temporary data storage
+          </li>
+          <li>
+            Usage of JavaScript within the web browser
+          </li>
+          <li>
+            Removal of outdated elements (tags)
+          </li>
+          <li>
+            New types of form control and elements.
+          </li>
+        </ul>
+        <p>This technical document details the new outlining and sectioning elements of HTML5, specific regarding <mark>&lt;nav&gt;</mark>, <mark>&lt;section&gt;</mark>, <mark>&lt;article&gt;</mark>, <mark>&lt;header&gt;</mark>, and <mark>&lt;footer&gt;</mark> elements.
+        </p> 
+      </article>
+      </section>
+    
+    <section class="main-section" id="nav_tag">
+        <header>nav tag</header>
+        <article>
+          <p>
+            The HTML5 <mark>&lt;nav&gt;</mark> tag is also known as the navigation section element.</p>
+          <p>It represents a section of a page that provides navigation links. These navigation links can lead to either within or outside the current document.
+            </p>
+          <p>The below is an example of how the current sidebar uses the <mark>&lt;nav&gt;</mark> tag:</p>
+          <code>
+            <pre>
+
+&lt;nav id="navbar"&gt;
+  &lt;header id="navheader"&gt;
+    HTML5 Documentation
+    &lt;/header&gt;
+    &lt;a href="#introduction" class="nav-link"&gt;Introduction&lt;/a&gt;
+    &lt;a href="#nav_tag" class="nav-link"&gt;nav tag&lt;/a&gt;
+&lt;/nav&gt;
+ </pre>
+    </code>  
+    </article>
+    </section>   
+    
+    <section class="main-section" id="section_tag">
+      <header>section tag</header>
+        <article>
+          <p>
+            The HTML5 <mark>&lt;section&gt;</mark> tag is also known as the generic section element.</p>
+          <p>
+            It represents a standalone section, without a more specific semantic element to represent it. <mark>&lt;section&gt;</mark> tags are commonly accompanied by a heading. 
+            </p>
+          <p>The following is this section's example:</p>
+            <code>
+            <pre>
+&lt;section class="main-section" id="section_tag"&gt;
+      &lt;header&gt;section tag&lt;/header&gt;
+        &lt;article&gt;
+          &lt;p&gt;
+            The HTML5 &lt;section&gt; tag is also known as the generic section element.
+          &lt;/p&gt;
+        &lt;/article&gt;
+&lt;/section&gt;        
+    </pre> 
+    </code>  
+    </article>
+    </section>
+    
+    <section class="main-section" id="article_tag">
+        <header>article tag</header>
+        <article>
+          <p>
+            The HTML5 <mark>&lt;article&gt;</mark> tag is also known as the article contents element.</p>
+         <p>It represents a self-contained composition, intended to be independently distributed or reusable. A single page, or even &lt;section&gt; tag, can hold multiple &lt;article&gt; elements.</p>
+          <p>To be specific, if it is more reasonable to be able to separately syndicate the contents of a section, by itself, independently, the &lt;article&gt; tag should be used, rather than the &lt;section&gt; tag</p>
+          <p>
+             *In truth, if it were not for this project's specifications of needing a &lt;section&gt; per heading/topic, the more optimal design would have been to submit a single section from the main content, from Introduction to References, and cover each topic as articles. Of course, if the technical document was much larger, spanning several pages and, indeed, sections, then &lt;section&gt; tags would have been the most reasonable method of document outlining.
+          </p>
+          <code>
+            <pre>
+&lt;article&gt;
+  &lt;p&gt;
+    The HTML5 &lt;article&gt; tag is also known as the article contents element.
+  &lt;/p&gt;
+  &lt;p&gt;
+    It represents a self-contained composition, intended to be independently distributed or reusable. A single page, or even &lt;section&gt; tag, can hold multiple &lt;article&gt; elements.
+  &lt;/p&gt;
+  &lt;p&gt;
+    To be specific, if it is more reasonable to be able to separately syndicate the contents of a section, by itself, independently, the &lt;article&gt; tag should be used, rather than the &lt;section&gt; tag
+  &lt;/p&gt;
+  &lt;/article&gt;
+  </pre>
+  </code>  
+  </section>
+    
+  <section class="main-section" id="header_tag">
+        <header><mark>header</mark> tag</header>
+        <article>
+          <p>
+            The HTML5 <mark>&lt;header&gt;</mark> tag represents introductory content.</p>
+          <p>It is not sectioning content. It does not introduce a new section to the outline.</p>
+          <p>It may contain heading elements (&lt;h1&gt; to &lt;h6&gt;), logos, search forms, author names, and other elements, but these are not required.
+            </p>
+          <p>For a simple example:</p>
+          <code>
+            <pre>
+&lt;section class="main-section" id="article_tag"&gt;
+  &lt;header&gt;article tag&lt;/header&gt; 
+&lt;/section&gt;
+          </pre>
+          </code>
+        </article>
+    </section>
+   
+    <section class="main-section" id="footer_tag">
+        <header><mark>footer</mark> tag</header>
+        <article>
+          <p>
+            The HTML5 <mark>&lt;footer&gt;</mark> tag represents the end content of its nearest sectioning content or sectioning root element.</p>
+          <p>
+            Information on the author of the section/article, copyright data, or links to related documents are generally contained in the tag.
+          </p>
+          <code>
+            <pre>
+&lt;footer id="copyright"&gt;
+    Copyright &copy; CopyrightYearHere  allemandi, All Rights Reserved
+&lt;/footer&gt;
+          </pre>
+          </code>  
+        </article>
+    </section>
+   
+     <section class="main-section" id="references">
+        <header>References</header>
+        <article>
+          <p>
+            Descriptions and text are referenced from <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank">MDN Web Docs</a> and <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank">Wikipedia</a>.
+            </p>
+          <p>
+            All actual examples are referenced from this page's HTML source code.
+         </p>
+        </article>
+    </section>
+    </main>
+    
+    <footer id="copyright">
+    Copyright &copy; CopyrightYearHere  allemandi, All Rights Reserved
+    </footer>
+    </html>
+    

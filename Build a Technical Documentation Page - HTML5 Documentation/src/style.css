@@ -1,0 +1,113 @@
+body {
+  font-family: calibri;
+  background-color: #000;
+  color: #C0C0C0;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+header {
+  font-size: 1.9rem;
+  font-weight: bold;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  width: 15rem;
+  background-color: #878683;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border: 0.1rem solid #FFF;
+}
+
+#navheader {
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* verticle sidebar for nav */
+nav a {
+  display: block;
+  color: black;
+  padding: 1rem;
+  text-decoration: none;
+  border: 0.1rem solid #FFF;
+}
+
+/* highlight to gray when hovering over nav options */
+nav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+main {
+  margin-left: 15rem;
+/*   this should match nav width */
+  padding: 1rem 1rem;
+
+}
+
+footer {
+  margin-left: 15rem;
+  text-align: center;
+}
+
+
+/* On screens that are less than 700px wide, the sidebar becomes a topbar */
+@media screen and (max-width: 700px) {
+  nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  nav a {
+    float: left;
+  }
+  main, footer {
+    margin-left: 0;
+   
+  }
+}
+
+/* On screens that are less than 400px, the navbar becomes vertical */
+@media screen and (max-width: 400px) {
+  nav a {
+    text-align: center;
+    float: none;
+
+  }
+}
+
+
+/* grey for markdown tag */
+mark {
+  background-color: #808080;
+}
+
+p {
+  text-indent: 2rem;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+
+code {
+  display: block;
+  background-color: #181818;
+  color: #C0C0C0;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.1rem;
+}
+
+pre {
+    white-space: pre-wrap;     
+    word-wrap: break-word;       
+}
+
