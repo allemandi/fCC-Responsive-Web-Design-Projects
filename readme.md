@@ -1,5 +1,5 @@
 # fCC Responsive Web Design Projects
-Project Challenges for freeCodeCamp's Responsive Web Design Projects Certification
+Project Challenges for freeCodeCamp's Responsive Web Design Certification
 
 ## Build a Tribute Page - Bronisław Malinowski
 A tribute page, describing the subject of choice. This is built as a CodePen.io app, primarily testing the correct usage of id attributes and HTML elements.
